@@ -6,7 +6,7 @@ export type globalType = {
     NewRecovered: number,
     TotalRecovered: number,
     Date: string
-}
+};
 
 export type CountyType = {
     ID: string,
@@ -21,7 +21,7 @@ export type CountyType = {
     TotalRecovered: number,
     Date: string,
     Premium: any
-}
+};
 
 export type summaryDataResponseType = {
     ID: string,
