@@ -8,7 +8,7 @@ export type globalType = {
     Date: string
 };
 
-export type CountyType = {
+export type CountryType = {
     ID: string,
     Country: string,
     CountryCode: string,
@@ -27,6 +27,6 @@ export type summaryDataResponseType = {
     ID: string,
     Message: string,
     Global: globalType,
-    Countries: Array<CountyType>,
+    Countries: Array<CountryType>,
     Date: string
 };

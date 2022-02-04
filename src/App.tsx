@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
+import {Provider} from "react-redux";
+import {store} from "./redux/ReduxStore";
+import {MainComponentsContainer} from "./components/main/MainComponentsContainer";
 
-function App() {
-  return (
-    <div>
-
-    </div>
-  );
+const App: React.FC =() => {
+    return (
+        <Provider store={store}>
+        <MainComponentsContainer />
+        </Provider>
+    );
 }
 
 export default App;
