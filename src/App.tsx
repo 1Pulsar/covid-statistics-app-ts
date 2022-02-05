@@ -10,6 +10,6 @@ const App: React.FC =() => {
         <MainComponentsContainer />
         </Provider>
     );
-}
+};
 
 export default App;
