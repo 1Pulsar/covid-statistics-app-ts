@@ -1,5 +1,5 @@
 import {setCountriesThunk} from "../../../../redux/reducers/summaryPageReducer";
-import {connect, ConnectedProps} from "react-redux";
+import {connect} from "react-redux";
 import {SummaryPage} from "./SummaryPage";
 import {CountryType} from "../../../common/commonTypes/summaryResponseTypes";
 import {dispatchClosureType} from "../../../common/commonTypes/commonReducerTypes";

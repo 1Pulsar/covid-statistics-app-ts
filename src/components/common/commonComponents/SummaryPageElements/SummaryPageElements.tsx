@@ -27,7 +27,7 @@ export const SummaryPageElement: React.FC<SummaryPageElementPropsType> =
                 </div>
                 <div className={style.elementBorder + " " + style.secondElementBorder + borderColor}/>
                 <div className={style.commonBlock + " " + style.countryTotal}>
-                    <p>{isHead ? "TotalConfirmed" : TotalConfirmed}</p>
+                    <p>{isHead ? "Total Confirmed" : TotalConfirmed}</p>
                 </div>
             </div>
         );
