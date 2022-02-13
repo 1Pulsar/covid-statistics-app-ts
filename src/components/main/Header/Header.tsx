@@ -11,22 +11,22 @@ type HeaderProps = {
 
 export const Header: React.FC<HeaderProps> = ({searchInputField, setSearchInputValueField}) => {
 
-    const [localSearchInput, setLocalSearchInput] = useState('')
+    const [localSearchInput, setLocalSearchInput] = useState('');
 
     const searchInputChanges = (event: any): void => {
         setLocalSearchInput(event.target.value)
-    }
+    };
 
     const searchInputPressEnter = (event: any) => {
         if (event.key === "Enter") {
             setSearchInputValueField(localSearchInput)
 
         }
-    }
+    };
 
     const searchInputClick = () => {
         setSearchInputValueField(localSearchInput)
-    }
+    };
 
     return (
         <div className={style.headerContainer}>
